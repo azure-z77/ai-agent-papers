@@ -81,3 +81,24 @@
 * [Nov 2025] **"Scaling Agent Learning via Experience Synthesis"** [[paper](https://arxiv.org/abs/2511.03773v2)]
 * [Nov 2025] **"AutoEnv: Automated Environments for Measuring Cross-Environment Agent Learning"** [[paper](https://arxiv.org/abs/2511.19304v1)]
 * [Dec 2025] **"Self-Improving VLM Judges Without Human Annotations"** [[paper](https://arxiv.org/abs/2512.05145v1)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="vpr"></a>
+
+### Verifiable Process Rewards for Agentic Reasoning
+
+- **Date/version:** 2026-05-11; arXiv v2, 2026-05-27.
+- **Tags:** Agentic RL, Agentic Reasoning.
+- **Source:** [primary source](https://arxiv.org/abs/2605.10325v2).
+- **Why it matters:** Reliable intermediate oracles can localize credit assignment beyond sparse final-outcome rewards.
+- **Evidence/release:** Uses search-, constraint- and posterior-based verification for dense turn-level rewards; reports improvements over outcome and rollout-based process rewards in controlled environments and transfer benchmarks.
+- **Limits:** Applicability depends on reliable intermediate verification. This is not evidence that arbitrary LLM-judge process rewards work in open-ended environments; quantitative tables were not audited in this pass.
+
+### Related 2026 entries
+
+- [Cross-Benchmark Transfer from RL on Agentic Coding Tasks](../application-papers/software-agents.md#coding-transfer)
+- [LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent](../application-papers/deep-research-agents.md#literesearcher)
+- [AgentENV: distributed execution environments for agentic RL](../agent-frameworks/agent-framework.md#agentenv)

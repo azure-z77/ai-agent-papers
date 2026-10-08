@@ -62,3 +62,40 @@
 * [Dec 2025] **"The AdoptionandUsageof AIAgents: Early EvidencefromPerplexity∗"** [[paper](https://arxiv.org/abs/2512.07828v2)]
 * [Dec 2025] **"Measuring Agents in Production"** [[paper](https://arxiv.org/abs/2512.04123v1)]
 * [Dec 2025] **"Towards a Science of Scaling Agent Systems"** [[paper](https://arxiv.org/abs/2512.08296v1)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="deepresearch-bench-ii"></a>
+
+### DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Reports
+
+- **Date/version:** 2026-01-13; arXiv v3, 2026-09-10.
+- **Tags:** Deep Research, Evaluation.
+- **Source:** [primary source](https://arxiv.org/abs/2601.08536v3).
+- **Why it matters:** Measures report-level information recall, analysis and presentation rather than only answer correctness.
+- **Evidence/release:** 132 tasks across 22 domains, 9,430 binary rubrics, over 400 expert-review hours; strongest evaluated systems satisfy fewer than 50% of rubrics. Authors state benchmark, scripts and rubrics are released.
+- **Limits:** Results apply to the systems and rubric protocol in this paper, not all models available on the audit date. Linked repository contents were not successfully inspected in this pass.
+
+<a id="evomembench"></a>
+
+### EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective
+
+- **Date/version:** 2026-05-18; arXiv v2, 2026-06-15.
+- **Tags:** Memory, Self-Evolution, Evaluation.
+- **Source:** [primary source](https://arxiv.org/abs/2605.18421v2); [official project](https://github.com/DSAIL-Memory/EvoMemBench).
+- **Why it matters:** Requires strong long-context baselines before attributing gains to a memory mechanism.
+- **Evidence/release:** Compares 15 methods across in-/cross-episode and knowledge-/execution-oriented settings. Long-context baselines remain competitive; no memory form dominates across settings.
+- **Limits:** Interpret results by task structure and context sufficiency, not as evidence that memory is useless. Official benchmark code available.
+
+<a id="swe-pro-v2"></a>
+
+### SWE-Bench Pro V2: public split and locked evaluation protocol
+
+- **Date/version:** 2026-09-22; Official release update checked 2026-10-08.
+- **Tags:** Coding, Evaluation, Safety.
+- **Source:** [primary source](https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full).
+- **Why it matters:** Benchmark validity and verifier isolation can change conclusions independently of model improvements.
+- **Evidence/release:** Official update: 642 tasks across 11 repositories; 89 invalid tasks dropped, 69 instruction/test conflicts corrected. Agent networking restricted to model endpoint; submitted diffs regraded in pristine images.
+- **Limits:** This is a 2026 revision of an older benchmark. Do not merge with SWE-Bench Pro Verified, or compare old 731-task scores directly with V2. The page retains legacy description/results below the dated update; those are not V2 results.

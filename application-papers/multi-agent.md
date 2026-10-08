@@ -144,3 +144,29 @@
 * [Sep 2025] **"MAS^2: Self-Generative, Self-Configuring, Self-Rectifying Multi-Agent Systems"** [[paper](https://arxiv.org/abs/2509.24323)]
 * [Sep 2025] **"AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?"** [[paper](https://arxiv.org/abs/2509.03312)]
 * [Dec 2025] **"SimWorld: AnOpen-endedRealistic Simulator for AutonomousAgents in Physical andSocial Worlds"** [[paper](https://arxiv.org/abs/2512.01078v1)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="kimi-k25"></a>
+
+### Kimi K2.5: Visual Agentic Intelligence
+
+- **Date/version:** 2026-02-02; arXiv v2, 2026-08-07.
+- **Tags:** Multi-Agent, Efficiency, Model Release.
+- **Source:** [primary source](https://arxiv.org/abs/2602.02276v2).
+- **Why it matters:** Agent Swarm makes dynamic parallel task decomposition a learned-system research target.
+- **Evidence/release:** Report describes joint text/vision optimization and releases a post-trained checkpoint; Agent Swarm reports up to 4.5× lower latency than single-agent baselines.
+- **Limits:** An upper-bound speedup on evaluated workloads does not establish lower total tokens or dollar cost. Checkpoint release is not proof that the complete swarm training/runtime stack is open.
+
+<a id="mas-fire"></a>
+
+### MAS-FIRE: Fault Injection and Reliability Evaluation for LLM-Based Multi-Agent Systems
+
+- **Date/version:** 2026-02-23; arXiv v1.
+- **Tags:** Multi-Agent, Evaluation, Safety.
+- **Source:** [primary source](https://arxiv.org/abs/2602.19843v1).
+- **Why it matters:** Fault injection distinguishes coordination reliability from clean-run end-to-end success.
+- **Evidence/release:** Defines 15 fault types and tests three MAS architectures. Authors find stronger models do not uniformly improve robustness; closed-loop designs neutralize over 40% of faults that collapse linear workflows.
+- **Limits:** This is a conditional result for the injected faults and tested architectures, not a universal multi-agent advantage.

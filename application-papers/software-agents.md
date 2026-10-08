@@ -73,3 +73,18 @@
 * [Dec 2025] **"Process-Centric Analysis of Agentic Software Systems"** [[paper](https://arxiv.org/abs/2512.02393)]
 * [Dec 2025] **"DeepCode: Open Agentic Coding"** [[paper](https://arxiv.org/abs/2512.07921v1)]
 * [Dec 2025] **"Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial Scale"** [[paper](https://arxiv.org/abs/2512.10398v1)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="coding-transfer"></a>
+
+### Cross-Benchmark Transfer from RL on Agentic Coding Tasks
+
+- **Date/version:** 2026-10-01; arXiv v1.
+- **Tags:** Agentic RL, Coding, Evaluation.
+- **Source:** [primary source](https://arxiv.org/abs/2610.00890v1).
+- **Why it matters:** Tests whether verifier-based training transfers across task sets and agent harnesses, rather than merely raising one in-distribution score.
+- **Evidence/release:** Kimi K2.7 Code; 1,700 tasks; one epoch GSPO with rank-32 LoRA. Reported pass@1: SWE-Bench Pro 60.1→64.8, DeepSWE 31.0→43.4, Terminal-Bench 2.1 67.4→82.0. Any pass-to-pass test failure zeros the reward.
+- **Limits:** Fresh preprint; no independent reproduction here. Terminal-Bench 4 revises Terminal-Bench 3, so six benchmark names are not six independent task sets. Do not compare these numbers to K3 or Pro V2 without matching protocols.

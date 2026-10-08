@@ -113,3 +113,18 @@ Agents in various tasks such as education, healthcare, and the press.
 * [Nov 2025] **"From LLMs to Agents: A Comparative Evaluation of LLMs and LLM-based Agents in Security Patch Detection"** [[paper](https://arxiv.org/abs/2511.08060v1)]
 * [Nov 2025] **"AIA Forecaster: Technical Report"** [[paper](https://arxiv.org/abs/2511.07678v1)]
 * ⚖️ [Dec 2025] **"GovBench: Benchmarking LLM Agents for Real-World Data Governance Workflows"** [[paper](https://arxiv.org/abs/2512.04416v1)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="kimi-k3"></a>
+
+### Kimi K3: Open Frontier Intelligence
+
+- **Date/version:** 2026-07-27; arXiv v2, 2026-08-07.
+- **Tags:** Kimi-K3, Agentic RL, Coding, Deep Research.
+- **Source:** [primary source](https://arxiv.org/abs/2607.24653v2); [official project](https://github.com/MoonshotAI/Kimi-K3).
+- **Why it matters:** Treat long-horizon capability as a joint model, post-training and persistent-environment problem.
+- **Evidence/release:** The report releases full model weights and describes general/agentic/coding RL and persistent rollout/sandbox states. Official README: DeepSWE v1.1 67.5 with Kimi Code versus 67.3 with mini-SWE-agent; BrowseComp 91.2 with compaction at 300K tokens versus 90.4 without context management.
+- **Limits:** Open weights under the Kimi K3 License do not imply an open training pipeline. Scores are provider-reported; harness and context policy matter. README snapshot checked 2026-10-08.

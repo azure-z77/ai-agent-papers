@@ -118,3 +118,18 @@
 * [Jun 2025] **"GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents"** [[paper](https://arxiv.org/abs/2506.03143)]
 * [Jun 2025] **"Beyond Syntax: Action Semantics Learning for App Agents"** [[paper](https://arxiv.org/abs/2506.17697)]
 * [Oct 2025] **"ReInAgent: A Context-Aware GUI Agent Enabling Human-in-the-Loop Mobile Task Navigation"** [[paper](https://arxiv.org/abs/2510.07988)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="dynamic-gui"></a>
+
+### Benchmarking and Improving GUI Agents in High-Dynamic Environments
+
+- **Date/version:** 2026-04-28; arXiv v2, 2026-05-08.
+- **Tags:** GUI, Evaluation.
+- **Source:** [primary source](https://arxiv.org/abs/2604.25380v2).
+- **Why it matters:** Changes the observation assumption: a screenshot after each action can miss important intervening interface changes.
+- **Evidence/release:** DynamicGUIBench spans ten applications; DynamicUI uses interaction video, frame selection, action-conditioned refinement and reflection.
+- **Limits:** Authors report gains on their dynamic benchmark; numerical tables and runtime overhead were not audited. No inference that screenshot-based methods are universally inferior.

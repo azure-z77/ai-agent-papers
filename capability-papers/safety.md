@@ -64,3 +64,29 @@ These papers discuss the safety and risks of agents.
 * [Dec 2025] **"SABER: Small Actions, Big Errors - Safeguarding Mutating Steps in LLM Agents"** [[paper](https://arxiv.org/abs/2512.07850v1)]
 * [Dec 2025] **"Insured Agents: A Decentralized Trust Insurance Mechanism for Agentic Economy"** [[paper](https://arxiv.org/abs/2512.08737v1)]
 * [Dec 2025] **"EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce"** [[paper](https://arxiv.org/abs/2512.08868v2)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="safeevolve"></a>
+
+### SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment
+
+- **Date/version:** 2026-09-02; arXiv v1.
+- **Tags:** Safety, Self-Evolution, Agentic RL.
+- **Source:** [primary source](https://arxiv.org/abs/2609.02786v1); [official project](https://github.com/MaoPopovich/SafeEvolve).
+- **Why it matters:** Updates auditable harness components alongside SFT/RL policy optimization and evaluates safety together with benign utility.
+- **Evidence/release:** For Qwen3.5-4B on AgentDojo, authors report a 3× attack-success-rate reduction while benign utility rises from 59.79% to 61.86%. Official implementation available.
+- **Limits:** Specific model/benchmark result, not a general safety guarantee. ASR reduction is a factor, not a percentage-point reduction.
+
+<a id="mas-security"></a>
+
+### SoK: When Safe Agents Fail Together: The Security of Multi Agent LLM Systems
+
+- **Date/version:** 2026-09-01; arXiv v1.
+- **Tags:** Safety, Multi-Agent, Survey.
+- **Source:** [primary source](https://arxiv.org/abs/2609.00595v1).
+- **Why it matters:** Local agent safety checks do not establish safety across information and authority boundaries in a composed system.
+- **Evidence/release:** Systematizes 197 works and audits 44 evaluation/benchmark works; organizes adversary positions, interaction interfaces and system risks.
+- **Limits:** A systematization, not a new empirical leaderboard. Its proposed evaluation lens needs concrete counterfactuals and end-to-end attack-path testing.

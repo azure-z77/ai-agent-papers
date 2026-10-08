@@ -69,3 +69,22 @@ These papers discuss an agent’s memory function and its self-evolution.
 * [Nov 2025] **"General Agentic Memory Via Deep Research"** [[paper](https://arxiv.org/abs/2511.18423v1)]
 * [Nov 2025] **"Episodic Memory in Agentic Frameworks: Suggesting Next Tasks"** [[paper](https://arxiv.org/abs/2511.17775v1)]
 * [Dec 2025] **"Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution"** [[paper](https://arxiv.org/abs/2512.10696)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="memrl"></a>
+
+### MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory
+
+- **Date/version:** 2026-01-06; arXiv v2, 2026-02-12.
+- **Tags:** Memory, Self-Evolution.
+- **Source:** [primary source](https://arxiv.org/abs/2601.03192v2); [official project](https://github.com/MemTensor/MemRL).
+- **Why it matters:** Separates frozen model reasoning from adaptive episodic-memory utility; runtime learning need not update model weights.
+- **Evidence/release:** Two-phase retrieval uses environmental feedback to identify useful experiences. Evaluated on HLE, BigCodeBench, ALFWorld and Lifelong Agent Bench; official implementation is available.
+- **Limits:** Do not label this policy-weight RL or assume gains transfer to arbitrary deployment streams. Quantitative tables were not audited.
+
+### Related 2026 entries
+
+- [EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective](../capability-papers/evaluation.md#evomembench)

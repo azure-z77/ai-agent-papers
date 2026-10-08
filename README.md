@@ -1,5 +1,17 @@
 # AI Agents Papers
-Updated biweekly.
+Last curated review: 2026-10-08.
+
+
+## 2026 Highlights (reviewed 8 Oct)
+
+[Read the curated 2026 update](updates/2026-10-08-agent-research.md): 15 distinct papers, reports and releases covering Agentic RL, Kimi K3, agentic reasoning, Deep Research, coding/GUI agents, multi-agent coordination, memory, self-evolution, evaluation, safety and efficiency.
+
+- **Model and infrastructure:** Kimi K3 and AgentENV.
+- **Learning and reasoning:** cross-benchmark coding RL transfer, verifiable process rewards, LiteResearcher and the agentic reasoning survey.
+- **Evaluation:** DeepResearch Bench II, DynamicGUIBench, EvoMemBench and SWE-Bench Pro V2.
+- **Coordination, adaptation and safety:** Kimi K2.5 Agent Swarm, MAS-FIRE, MemRL, SafeEvolve and the MAS security SoK.
+
+The update records primary sources, versions, research implications and comparison limits. Reported scores are not independent reproductions; cross-harness results are not a controlled model ranking.
 
 ## AI Agent
 AI agents can think, act, and complete tasks by themselves.  

@@ -86,3 +86,23 @@
 * [Nov 2025] **"Solving a Million-Step LLM Task with Zero Errors"** [[paper](https://arxiv.org/abs/2511.09030v1)]
 * [Dec 2025] **"The Art of Scaling Test-Time Compute for Large Language Models"** [[paper](https://arxiv.org/abs/2512.02008v1)]
 * [Dec 2025] **"Long-horizon Reasoning Agent for Olympiad-Level Mathematical Problem Solving"** [[paper](https://arxiv.org/abs/2512.10739)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="reasoning-survey"></a>
+
+### A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents
+
+- **Date/version:** 2026-01-18; arXiv v2, 2026-09-20; arXiv comments report TMLR acceptance.
+- **Tags:** Agentic Reasoning, Survey.
+- **Source:** [primary source](https://arxiv.org/abs/2601.12538v2); [official project](https://github.com/weitianxin/Awesome-Agentic-Reasoning).
+- **Why it matters:** Separates inference-time orchestration from SFT/RL optimization across foundational, self-evolving and collective agents.
+- **Evidence/release:** A conceptual roadmap linking planning, tools, search, memory and collaboration; useful for organizing research questions.
+- **Limits:** A survey is a taxonomy and literature entry point, not causal evidence that one architecture wins.
+
+### Related 2026 entries
+
+- [Verifiable Process Rewards for Agentic Reasoning](../capability-papers/learning.md#vpr)
+- [Kimi K3: Open Frontier Intelligence](../application-papers/agentic-ai-system.md#kimi-k3)

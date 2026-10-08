@@ -111,3 +111,9 @@
 * [Dec 2025] **"Guided Self-Evolving LLMs with Minimal Human Supervision"** [[paper](https://arxiv.org/abs/2512.02472v1)]
 * [Dec 2025] **"Evolving Excellence: Automated Optimization of LLM-based Agents"** [[paper](https://arxiv.org/abs/2512.09108v1)]
 * [Dec 2025] **"Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution"** [[paper](https://arxiv.org/abs/2512.10696)]
+
+### Related 2026 entries
+
+- [MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory](../capability-papers/memory.md#memrl)
+- [EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective](../capability-papers/evaluation.md#evomembench)
+- [SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](../capability-papers/safety.md#safeevolve)

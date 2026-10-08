@@ -189,3 +189,18 @@
 * [Dec 2025] **"AgentBay: A Hybrid Interaction Sandbox for Seamless Human-AI Intervention in Agentic Systems"** [[paper](https://arxiv.org/abs/2512.04367v1)]
 * [Dec 2025] **"HAI-Eval: Measuring Human-AI Synergy in Collaborative Coding"** [[paper](https://arxiv.org/abs/2512.04111v1)]
 * [Dec 2025] **"AI & Human Co-Improvement for Safer Co-Superintelligence"** [[paper](https://arxiv.org/abs/2512.05356v1)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="agentenv"></a>
+
+### AgentENV: distributed execution environments for agentic RL
+
+- **Date/version:** 2026-07-27; Official release blog; repository checked 2026-10-08.
+- **Tags:** Agentic RL, Efficiency, Engineering.
+- **Source:** [primary source](https://kvcache.ai/blog/agentenv-open-sourced/); [official project](https://github.com/kvcache-ai/AgentENV).
+- **Why it matters:** Environment pause/resume and fork make waiting and branching trajectories a systems optimization target alongside GPU inference.
+- **Evidence/release:** Official release reports 88.6–96.8% lower environment cost in its typical workloads. The MIT-licensed implementation supports Firecracker environments, incremental snapshots and forks; it powers Kimi K3 agentic RL.
+- **Limits:** This is an environment-cost claim, not end-to-end training speedup or independently reproduced savings. Requires Linux kernel 6.8+ and KVM per current README. Distinct from other projects also named AgentEnv.

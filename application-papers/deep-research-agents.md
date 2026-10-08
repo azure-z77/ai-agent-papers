@@ -77,3 +77,23 @@
 * [Nov 2025] **"General Agentic Memory Via Deep Research"** [[paper](https://arxiv.org/abs/2511.18423v1)]
 * 📖 [Dec 2025] **"Deep Research: A Systematic Survey"** [[paper](https://arxiv.org/abs/2512.02038v1)]
 * [Dec 2025] **"How Far Are We from Genuinely Useful Deep Research Agents?"** [[paper](https://arxiv.org/abs/2512.01948v1)]
+
+## 2026 curated additions
+
+Checked 2026-10-08. One canonical entry per work; cross-topic navigation is in the [2026 review](../updates/2026-10-08-agent-research.md). Results below are source-reported, not independently reproduced.
+
+<a id="literesearcher"></a>
+
+### LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent
+
+- **Date/version:** 2026-04-20; arXiv v5, 2026-07-26; comments: COLM 2026.
+- **Tags:** Deep Research, Agentic RL, Efficiency.
+- **Source:** [primary source](https://arxiv.org/abs/2604.17931v5).
+- **Why it matters:** A lightweight virtual search world targets the instability and cost of training against live web search; relevant to small-model agent training.
+- **Evidence/release:** The abstract reports LiteResearcher-4B at 71.3% on GAIA and 78.0% on Xbench.
+- **Limits:** Author-reported figures. Split, tools, sampling and budgets require full-protocol review before numerical comparison; these are not report-writing quality scores. Implementation availability not independently verified here.
+
+### Related 2026 entries
+
+- [DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Reports](../capability-papers/evaluation.md#deepresearch-bench-ii)
+- [Kimi K3: Open Frontier Intelligence](../application-papers/agentic-ai-system.md#kimi-k3)
